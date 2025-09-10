@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-200">
+    <h1 class="font-bold text-4xl text-center m-10">Qual seleção irá ganhar a Copa de 2026?</h1><br><br>
+
+    <div class="flex justify-evenly">
+        <!--BRASIL-->
+        <div class="flex-1 flex flex-col items-center" id="brasil">
+            <img src="https://images.vexels.com/media/users/3/152348/isolated/preview/e292f8cec7eae5f8f4f25bcc36cfe5f5-logo-da-selecao-brasileira-de-futebol.png" 
+            alt="candidato01" class="w-[250px] h-[280px]"><br>
+            <button class="bg-gray-500 rounded w-[85px] h-[60px] hover:bg-gray-800 text-white font-bold text-xl" 
+            onclick="votar('Brasil')">Vote</button>
+        </div><br><br>
+
+        <!--ARGENTINA-->
+        <div class="flex-1 flex flex-col items-center" id="argentina">
+            <img src="https://images.vexels.com/media/users/3/152292/isolated/lists/c73bd926f8a552125a2b8999143f5086-logo-da-selecao-argentina.png" 
+            alt="candidato02" class="w-[250px] h-[280px]"><br>
+            <button class="bg-gray-500 rounded w-[85px] h-[60px] hover:bg-gray-800 text-white font-bold text-xl" 
+            onclick="votar('Argentina')">Vote</button>
+            
+        </div>
+
+        <!--FRANÇA-->
+        <div class="flex-1 flex flex-col items-center" id="franca">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/2/25/Logo_Sele%C3%A7%C3%A3o_Francesa_2018.png" 
+            alt="candidato03" class="w-[250px] h-[280px]"><br>
+            <button class="bg-gray-500 rounded w-[85px] h-[60px] hover:bg-gray-800 text-white font-bold text-xl" 
+            onclick="votar('França')">Vote</button>
+        </div>
+    </div><br><br>
+
+    <!--MENSAGEM QUE APARECE QUANDO VOCÊ VOTA EM UMA DAS SELEÇÕES-->
+    <div class="font-bold text-center text-3xl text-red-500" id="votado"></div><br><br>
+
+    <!--BOTÃO PARA VER A QUANTIDADE DE VOTOS-->
+    <div class="flex justify-center align-center" id="result">
+        <button class="bg-green-500 rounded w-[110px] h-[75px] hover:bg-green-800 text-white font-bold text-xl" 
+        onclick="mostrarResultado()">Resultado</button>
+    </div><br><br>
+
+    <div class="font-bold text-center text-4xl" id="mensagem"></div>
+    <script src="script.js"></script>
+</body>
+</html>
