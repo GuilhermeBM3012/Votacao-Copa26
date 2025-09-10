@@ -27,7 +27,7 @@ Projeto simples de votação para selecionar qual seleção será a campeã da C
 /votacao-copa-2026
 │
 ├─ index.html # Página principal
-├─ script/script.js # Lógica de votos
+├─ script.js # Lógica de votos
 └─ README.md # Documentação
 
 ---
@@ -69,3 +69,4 @@ Projeto simples de votação para selecionar qual seleção será a campeã da C
 
 Guilherme Milani  
 Projeto feito como exercício de JavaScript e manipulação do DOM.
+
