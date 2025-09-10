@@ -39,6 +39,10 @@ Projeto simples de votação para selecionar qual seleção será a campeã da C
 3. Clique nos botões de **Vote** para registrar votos em cada seleção.  
 4. Clique no botão **Resultado** para ver qual seleção está ganhando ou se deu empate.
 
+OU
+
+1. Acesse esse link: https://guilhermebm3012.github.io/Votacao-Copa26/
+
 ---
 
 ## 🔧 Observações
@@ -69,4 +73,5 @@ Projeto simples de votação para selecionar qual seleção será a campeã da C
 
 Guilherme Milani  
 Projeto feito como exercício de JavaScript e manipulação do DOM.
+
 
